@@ -63,8 +63,8 @@ const DashHome = ({
     const [others, setOthers] = useState();
     const [alluserplan, setAlluserplan] = useState();
 
-    const url3 = `https://slim-new-site-back-end.vercel.app/api/getalltransactions/${id}`
-    const url4 = `https://slim-new-site-back-end.vercel.app/api/getallinvestmentplan/${id}`
+    const url3 = `https://cypbit-trade-back-e-nd.vercel.app/api/getalltransactions/${id}`
+    const url4 = `https://cypbit-trade-back-e-nd.vercel.app/api/getallinvestmentplan/${id}`
 
     const getAllOthers = ()=>{
         axios.get(url3)
@@ -120,7 +120,7 @@ useEffect(()=>{
                     <p>Welcome to Okx-Assets, You set the level.</p>
                 </div> */}
                 <div className="DashHomeInfoBox2">
-                    <p>Welcome to Trade Bitpay</p>
+                    <p>Welcome to Cypbit Trade</p>
                 </div>
                 <div className="DashHomeMainContent">
                     <div className="DashHomeMainContentAccSummaryDiv">

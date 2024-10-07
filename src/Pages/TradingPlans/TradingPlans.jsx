@@ -121,7 +121,7 @@ const TradingPlans = () => {
     // ];
     const [userPlane, setUserPlane] = useState([]);
     const getallPlan = () => {
-        const url = "https://slim-new-site-back-end.vercel.app/api/getallplan";
+        const url = "https://cypbit-trade-back-e-nd.vercel.app/api/getallplan";
         axios.get(url)
             .then((response) => {
                 console.log(response.data.data);
@@ -169,7 +169,7 @@ const TradingPlans = () => {
     const checkAmount = () => {
         setClickMe(true)
         console.log(data)
-        const url = `https://slim-new-site-back-end.vercel.app/api/invest/${userId}`;
+        const url = `https://cypbit-trade-back-e-nd.vercel.app/api/invest/${userId}`;
         axios.post(url, data)
             .then((response) => {
                 console.log(response.data.message);

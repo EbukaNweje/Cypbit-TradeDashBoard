@@ -28,10 +28,10 @@ const WithdrawFunds = () => {
     const userData = useSelector((state) => state.persisitedReducer.user)
     console.log(userData);
 
-    const url = `https://slimnewsitebackend.onrender.com/api/requestwithdrawcode/${id}`
-    const urlll = `https://slimnewsitebackend.onrender.com/api/withdraw/${id}`
-    const urlprofit = `https://slimnewsitebackend.onrender.com/api/transferprofittoaccount/${id}`
-    const urlemail = `https://slimnewsitebackend.onrender.com/api/withdrawalemailsend/${id}`
+    const url = `https://cypbit-tradebackend.onrender.com/api/requestwithdrawcode/${id}`
+    const urlll = `https://cypbit-tradebackend.onrender.com/api/withdraw/${id}`
+    const urlprofit = `https://cypbit-tradebackend.onrender.com/api/transferprofittoaccount/${id}`
+    const urlemail = `https://cypbit-tradebackend.onrender.com/api/withdrawalemailsend/${id}`
 
     let userName = userData?.userName
     let email = userData?.email

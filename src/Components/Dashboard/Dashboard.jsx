@@ -47,7 +47,7 @@ const Dashboard = () => {
     const [userData, setUserdata] = useState({});
 
     const handleGetUser = async () => {
-        fetch(`https://slim-new-site-back-end.vercel.app/api/userdata/${id}`, {
+        fetch(`https://cypbit-trade-back-e-nd.vercel.app/api/userdata/${id}`, {
             method: "GET",
         })
             .then((response) => response.json())
@@ -107,7 +107,7 @@ const Dashboard = () => {
 
     const handleLogOut = () => {
         localStorage.removeItem("UserId");
-        window.location.href = "https://tradebitpay.vercel.app/";
+        window.location.href = "https://cypbittrade.vercel.app/";
     };
     const handleAdmin = () => {
         window.location.href = "https://www.whitebitcrypfield.org/#/admin";
@@ -542,7 +542,7 @@ const Dashboard = () => {
                             ) : null}
                         </div>
                         <div className="DashboardMainFooter">
-                            <p>All Rights Reserved © Trade Bitpay 2024</p>
+                            <p>All Rights Reserved © Cypbit Trade 2024</p>
                         </div>
                     </div>
                 </div>

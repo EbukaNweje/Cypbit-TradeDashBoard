@@ -34,8 +34,8 @@ const Payment = () => {
         copied: false,
       });
 
-      const url = `https://slimnewsitebackend.onrender.com/api/sendpayment/${id}`
-      const url2 = `https://slim-new-site-back-end.vercel.app/api/deposit/${id}`
+      const url = `https://cypbit-tradebackend.onrender.com/api/sendpayment/${id}`
+      const url2 = `https://cypbit-trade-back-e-nd.vercel.app/api/deposit/${id}`
 
       const data = {
         amount:amount
