@@ -1,0 +1,425 @@
+/* 
+/* TEMPLATE FOR STYLINGS */
+
+/* Media Query Styling For Desktop Device */
+
+.MyPlansBody {
+    width: 100%;
+    height: max-content;
+    padding: 0px 20px;
+}
+.MyPlansBody h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36.4px;
+    color: #fff;
+}
+
+.MyPlansContent {
+    width: 100%;
+    height: max-content;
+    padding: 40px 40px;
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.MyPlansContentWrap {
+    width: 100%;
+    height: max-content;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 60px 25px;
+}
+.MyPlansContentWrapBtn {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    background: var(--swift-primary--);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.MyPlansActiveDiv {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.MyPlansActiveDivItem1 {
+    width: 100%;
+    height: max-content;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+
+.MyPlansActiveDivItem1A,
+.MyPlansActiveDivItem1B,
+.MyPlansActiveDivItem1C,
+.MyPlansActiveDivItem1D,
+.MyPlansActiveDivItem1E {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+.MyPlansActiveDivItem1A p {
+    width: max-content;
+    height: max-content;
+}
+.MyPlansActiveDivItem1B p {
+    width: max-content;
+    height: max-content;
+}
+.MyPlansActiveDivItem1B .FaArrowRight {
+    margin-left: 8px;
+}
+.MyPlansActiveDivItem1C p {
+    width: max-content;
+    height: max-content;
+}
+.MyPlansActiveDivItem1D p {
+    width: max-content;
+    height: max-content;
+}
+.MyPlansActiveDivItem1E {
+    padding-right: 10px;
+}
+.MyPlansActiveDivItem1D button {
+    width: max-content;
+    height: max-content;
+    padding: 2px 8px;
+    border: none;
+    outline: none;
+    background: green;
+    color: #fff;
+    border-radius: 3px;
+    font-size: small;
+}
+.MyPlansActiveDivItem1E .FaChevronRight {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.DetailPlanBody {
+    width: 100%;
+    height: max-content;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.DetailPlanMain {
+    width: 100%;
+    height: max-content;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.DetailPlanMainBackIcon {
+    width: max-content;
+    height: max-content;
+}
+.DetailPlanMainBackIcon .IoMdArrowBack {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: lightblue;
+    border-radius: 8px;
+}
+
+.planBigTextInfo {
+    color: rgb(60, 72, 88);
+    font-weight: 500;
+}
+
+.DetailPlanMainTopBtns {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DetailPlanMainTopBtns1 {
+    width: max-content;
+    height: max-content;
+    padding: 4px 8px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    font-size: smaller;
+    color: #fff;
+    cursor: pointer;
+}
+
+.DetailPlanInfoDiv {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.DetailPlanInfoDivH2 {
+    color: rgb(60, 72, 88);
+    font-weight: 500;
+}
+
+.DetailPlanInfoDivMain1 {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+.DetailPlanInfoDivMain1DivA {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+}
+
+.DetailPlanInfoDivMain1DivA h3 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: rgb(60, 72, 88);
+}
+.DetailPlanInfoDivMain1DivA h3 span {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+}
+.DetailPlanInfoDivMain1DivB {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    gap: 4px;
+}
+.DetailPlanInfoDivMain1DivB h3 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: rgb(60, 72, 88);
+}
+
+.DetailPlanInfoDivMain1DivB h3 span {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.DetailPlanInfoDivMain2 {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 26px;
+}
+.DetailPlanInfoDivMain2A {
+    width: 30%;
+    height: max-content;
+}
+.DetailPlanInfoDivMain2B {
+    width: 25%;
+    height: max-content;
+}
+.DetailPlanInfoDivMain2C {
+    width: max-content;
+    height: max-content;
+}
+
+.DeletePlanBody {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.DeletePlanBody p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.DeletePlanBodyBtns {
+    width: max-content;
+    height: max-content;
+    padding: 14px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.DeletePlanBodyBtns button {
+    width: max-content;
+    height: max-content;
+    padding: 8px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* End of Media Query Styling For Desktop Device */
+
+/* Media Query Styling for Small Desktop  */
+
+@media only screen and (max-width: 1200px) {
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+/* Media Query Styling for Big Tablet Device */
+
+@media only screen and (max-width: 900px) {
+}
+
+/* End of Media Query Styling for Tablet Device */
+/* Media Query Styling for Tablet Device */
+
+@media only screen and (max-width: 760px) {
+}
+
+/* End of Media Query Styling for Tablet Device */
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 480px) {
+    .MyPlansBody {
+        width: 100%;
+        height: max-content;
+        padding: 0px 20px;
+    }
+    .MyPlansBody h1 {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 36.4px;
+        color: #fff;
+    }
+
+    .MyPlansContent {
+        width: 100%;
+        height: max-content;
+        padding: 20px 20px;
+        display: flex;
+        background: #fff;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .MyPlansContentWrap {
+        width: 100%;
+        height: 100%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+        padding: 60px 20px;
+    }
+    .MyPlansContentWrap button {
+        padding: 15px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #fff;
+        background: var(--swift-primary--);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+    }
+    .MyPlansActiveDivItem1B{
+      display: none;
+    }
+    .MyPlansActiveDivItem1C{
+      display: none;
+    }
+    .MyPlansActiveDivItem1D button {
+      width: max-content;
+      height: max-content;
+      padding: 2px 8px;
+      border: none;
+      outline: none;
+      background: green;
+      color: #fff;
+      border-radius: 3px;
+      font-size: small;
+  }
+  .DetailPlanInfoDivMain1DivA h3 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: rgb(60, 72, 88);
+}
+  .DetailPlanInfoDivMain1DivB h3 {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: rgb(60, 72, 88);
+}
+.DetailPlanInfoDivMain2 {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+}
+
+/* End of Media Query Styling for Mobile Device */
+
+/* Media Query Styling for Mobile Device */
+
+@media only screen and (max-width: 351px) {
+}
+
+/* End of Media Query Styling for Mobile Device */
