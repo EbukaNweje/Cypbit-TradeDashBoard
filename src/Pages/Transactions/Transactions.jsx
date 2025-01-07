@@ -37,9 +37,9 @@ const Transactions = () => {
         setTransOthers(true);
     };
 
-    const url = `https://cypbit-trade-back-e-nd.vercel.app/api/getalldeposit/${id}`
-    const url2 = `https://cypbit-trade-back-e-nd.vercel.app/api/getallwithdrawal/${id}`
-    const url3 = `https://cypbit-trade-back-e-nd.vercel.app/api/getalltransactions/${id}`
+    const url = `https://cypbit-trade-back-e-nd-ashen.vercel.app/api/getalldeposit/${id}`
+    const url2 = `https://cypbit-trade-back-e-nd-ashen.vercel.app/api/getallwithdrawal/${id}`
+    const url3 = `https://cypbit-trade-back-e-nd-ashen.vercel.app/api/getalltransactions/${id}`
 
     const getAllDeposit = ()=>{
            axios.get(url)

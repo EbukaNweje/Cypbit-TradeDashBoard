@@ -13,7 +13,7 @@ const PersonalSettings = ({data}) => {
 
   const userinfo = {fullName, userName, phoneNumber}
 
-    const updateuserurl = `https://cypbit-trade-back-e-nd.vercel.app/api/userdata/${data._id}`
+    const updateuserurl = `https://cypbit-trade-back-e-nd-ashen.vercel.app/api/userdata/${data._id}`
     const upDateUser = () => {
         setButtonDisabled(true)
         axios.patch(updateuserurl, userinfo)

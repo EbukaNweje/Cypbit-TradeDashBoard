@@ -47,7 +47,7 @@ const Dashboard = () => {
     const [userData, setUserdata] = useState({});
 
     const handleGetUser = async () => {
-        fetch(`https://cypbit-trade-back-e-nd.vercel.app/api/userdata/${id}`, {
+        fetch(`https://cypbit-trade-back-e-nd-ashen.vercel.app/api/userdata/${id}`, {
             method: "GET",
         })
             .then((response) => response.json())
